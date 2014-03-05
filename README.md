@@ -8,7 +8,7 @@ Provider to use [BugHerd Api](https://github.com/spekkionu/bugherd) with [Silex]
 You have to add to your composer.json file:
 
 ```
-"beleneglorion/bugherd-redmine-api-provider": "dev-master"
+"beleneglorion/bugherd-bugherd-api-provider": "dev-master"
 ```
 
 
