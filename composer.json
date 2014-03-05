@@ -12,9 +12,23 @@
             "homepage": "http://www.sebastien-thibault.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "drrobotnik/bugherd-api",
+                "version": "master",
+                "source": {
+                    "url": "https://github.com/drrobotnik/bugherd-api",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        }
+    ],
     "require": {
        "silex/silex": "~1.1",
-       "bugherd/bugherd": "*"
+       "drrobotnik/bugherd-api": "dev-master"
     },
     "autoload": {
         "psr-0": {

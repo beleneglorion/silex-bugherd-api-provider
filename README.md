@@ -1,6 +1,6 @@
 ## BugHerdServiceProvider
 
-Provider to use [BugHerd Api](https://github.com/spekkionu/bugherd) with [Silex](https://github.com/fabpot/Silex)
+Provider to use [BugHerd Api](https://github.com/drrobotnik/bugherd-api) with [Silex](https://github.com/fabpot/Silex)
 
 
 #### Install
