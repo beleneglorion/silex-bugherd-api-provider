@@ -1,6 +1,6 @@
 ## BugHerdServiceProvider
 
-Provider to use [BugHerd Api](https://github.com/drrobotnik/bugherd-api) with [Silex](https://github.com/fabpot/Silex)
+Provider to use [BugHerd Api](https://github.com/beleneglorion/php-bugherd-api) with [Silex](https://github.com/fabpot/Silex)
 
 
 #### Install
@@ -8,7 +8,7 @@ Provider to use [BugHerd Api](https://github.com/drrobotnik/bugherd-api) with [S
 You have to add to your composer.json file:
 
 ```
-"beleneglorion/bugherd-bugherd-api-provider": "dev-master"
+"beleneglorion/silex-bugherd-api-provider": "dev-master"
 ```
 
 
@@ -27,12 +27,3 @@ $app['bugherd.options'] = array(
     'apikey'   => "123456789abcdef"
 );
 ```
-
-#### Use in controllers
-    $projectId = 12345;
-    $data = $app['bugherd']->get_projects_tasks$projectId);
-    foreach($data['tasks'] as $task) {
-        if (is_null($task['status_id'] )) {
-         $res =   $app['bugherd']->update_projects_tasks($projectId,$task['id'],array('status'=>'backlog'));
-        }
-    }
