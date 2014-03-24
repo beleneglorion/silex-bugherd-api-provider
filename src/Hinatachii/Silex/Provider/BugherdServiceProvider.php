@@ -12,7 +12,7 @@ class BugherdServiceProvider implements ServiceProviderInterface
        
         $app['bugherd'] = $app->share(function () use ($app) {
            
-              return new \BugHerd_Api($app['bugherd.options']['apikey']);
+              return new \Bugherd\Client($app['bugherd.options']['apikey']);
         });
     }
 
